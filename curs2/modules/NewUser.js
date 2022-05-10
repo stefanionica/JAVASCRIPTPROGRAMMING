@@ -20,11 +20,12 @@ class NewUser{
         return this.#password;
     }
     // set varsta(newVarsta){
+    //     if(newVarsta >= 18 && newVarsta <= 30)
     //     this.#varsta = newVarsta;
     // }
     
-    mananca (claorii){
-        console.log(`Mananca ${claorii} pe zi.`);
+    mananca (calorii){
+        console.log(`Mananca ${calorii} pe zi.`);
     }
     doarme(ore){
         console.log(`Doarme ${ore} pe zi`);
@@ -34,7 +35,7 @@ class NewUser{
 
 class Abonat extends NewUser{
     constructor(id, nume, email){
-        super(id, nume, email);
+        super(id, nume, email); // apeleaza CountQueuingStrategy, din clasa parinte
 
     }
    
