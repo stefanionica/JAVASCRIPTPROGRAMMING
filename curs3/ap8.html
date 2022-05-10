@@ -9,15 +9,16 @@
 <body>
     <script>
         class Sport {
+  static nr_partide=2;
   constructor (name, numOfPlayers) {
     this.name = name;
     this.numOfPlayers = numOfPlayers;
   }
-  comment () {
+  comment() {
     return `${this.name} is amazing and I Love it`;
   }
-  players () {
-    return `There are ${this.numOfPlayers} number of players in ${this.name} per game.`
+  players() {
+    return `There are ${this.numOfPlayers} number of players in ${this.name} per game is no ${Sport.nr_partide}`;
   }
 }
 
@@ -27,7 +28,7 @@ class Football extends Sport {
     this.country = country;
   }
   comment() {
-    return `${this.name} is an amazing football team, based in ${this.country}`;
+    return `${this.name} is an amazing football team, based in ${this.country} ${Sport.nr_partide}`;
   }
 }
 
