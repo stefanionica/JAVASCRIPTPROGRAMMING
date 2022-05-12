@@ -14,11 +14,13 @@
     <p id="demo"></p>
     
     <script>
-        let text = `JavaScript este un limbaj de programare diferit de limbajul Java
+        let sursa = `JavaScript este un limbaj de programare diferit de limbajul Java
 si nici nu are legatura 
 cu insula Java`;
         let pattern = /Java/;
-        let result = text.match(pattern);
+        // let pattern = /java/i;
+         // let pattern = /java/ig;
+        let result = sursa.match(pattern);
 
         document.getElementById("demo").innerHTML = result;
 
