@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import {UI} from '../module/Ui.js';
 // Local Storage Class
+=======
+
+import {Ui} from '../module/Ui.js'
+>>>>>>> 1948ebaf314dbc581b58152d54d6866f8c7cc57b
 class Store {
  
     // It'll take care of fetching them from LocalStorage
@@ -48,4 +53,10 @@ class Store {
       localStorage.setItem('books', JSON.stringify(books));
     }
   }
+<<<<<<< HEAD
   export {Store};
+=======
+  
+  
+  export{Store};
+>>>>>>> 1948ebaf314dbc581b58152d54d6866f8c7cc57b

@@ -14,20 +14,38 @@
     <p id="demo"></p>
     
     <script>
+<<<<<<< HEAD
         let sursa = `JavaScript si este un limbaj de programare diferit de limbajul Java
     si nici nu are legatura si
     si insula Java siscript`;
         let pattern = /\d/mg;
+=======
+        let sursa = `JavaScript este un limbaj de programare diferit de limbajul Java
+si nici nu are legatura 
+cu insula Java`;
+        let pattern = /Java/;
+        // let pattern = /java/i;
+         // let pattern = /java/ig;
+>>>>>>> 1948ebaf314dbc581b58152d54d6866f8c7cc57b
         let result = sursa.match(pattern);
 
         document.getElementById("demo").innerHTML = result;
 
+<<<<<<< HEAD
         let str = `01
 -22 maini
 35552 crai`;
 
         console.log(str.match(/^[-0-9]{2}$/gm)); // 1, 2, 3
         //console.log(str.match(/^[0-9]/g)); // 1
+=======
+        let str = `1 este luna
+2 maini
+3 crai`;
+
+        console.log(str.match(/^[1-9]/gm)); // 1, 2, 3
+        console.log(str.match(/^[1-9]/g)); // 1
+>>>>>>> 1948ebaf314dbc581b58152d54d6866f8c7cc57b
     </script>
 </body>
 

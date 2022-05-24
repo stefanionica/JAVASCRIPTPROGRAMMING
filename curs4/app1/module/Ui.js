@@ -51,5 +51,10 @@ class UI {
      document.getElementById('isbn').value = "";
     }
  }
+<<<<<<< HEAD
  
  export {UI}
+=======
+
+ export{UI};
+>>>>>>> 1948ebaf314dbc581b58152d54d6866f8c7cc57b
