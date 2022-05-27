@@ -4,7 +4,7 @@ exports.findAll = void 0;
 const db_1 = require("../db");
 // Get all users
 const findAll = (callback) => {
-    const queryString = `SELECT * FROM jsusers`;
+    const queryString = `SELECT * FROM jsusers ORDER BY id DESC`;
     db_1.db.query(queryString, (err, result) => {
         if (err) {
             callback(err);

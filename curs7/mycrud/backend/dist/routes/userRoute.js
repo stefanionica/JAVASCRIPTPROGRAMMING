@@ -45,7 +45,7 @@ var jsonParser = bodyParser.json();
 userRouter.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     userModel.findAll((err, users) => {
         if (err) {
-            return res.status(500).json({ "errorMassage": err.message });
+            return res.status(500).json({ "errorMessage": err.message });
         }
         res.status(200).json({ "data": users });
     });
