@@ -1,0 +1,1 @@
+INSERT INTO `jsusers` (`id`, `nume`, `prenume`, `email`, `telefon`, `datanastere`, `dataadaugare`) VALUES (NULL, 'Popescu', 'Dan', 'popescu.dan@demo.com', '0725346255', '2022-05-16', current_timestamp());

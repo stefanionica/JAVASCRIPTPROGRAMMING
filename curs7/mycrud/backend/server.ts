@@ -9,6 +9,7 @@ dotenv.config();
 const app: Express = express();
 app.use(express.urlencoded({ extended: true }))
 const port = process.env.PORT;
+
 app.use(cors());
 app.use("/users", userRouter);
 app.get('/', (req: Request, res: Response) => {

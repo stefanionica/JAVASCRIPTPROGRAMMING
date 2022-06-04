@@ -23,7 +23,7 @@ $(document).ready(function ($) {
     // Adauga utilizator nou
     $('#addNewUser').click(function () {
         $('#userInserUpdateForm').trigger("reset");
-        $('#userModel').html("Adauga un user nou !!!!!");
+        $('#userModel').html("Adauga un user nou");
         $('#user-model').modal('show');
     });
     $.ajaxSetup({
